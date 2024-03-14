@@ -4,5 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "rcat"
+
+[[bin]]
+name = "rrls"
+
+
 [dependencies]
 clap = { version = "4.5.2", features = ["derive"] }
